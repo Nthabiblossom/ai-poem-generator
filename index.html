@@ -3,41 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Ai-poem-Generator</title>
   </head>
   <body>
-    <header><h1>AI poem generator</h1></header>
+    <div class="container">
+      <header><h1>AI poem generator</h1></header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter poem topic here"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter poem topic here"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
 
-      <div>
-        life is like roses
-        <br />
-        there are many different colours
-      </div>
-    </main>
+        <div class="poem">
+          life is like roses
+          <br />
+          there are many different colours
+        </div>
+      </main>
 
-    <footer>
-      This project was coded by Nthabeleng and open sourced on
-      <a
-        href="https://github.com/Nthabiblossom/ai-poem-generator"
-        target="_blank"
-        rel="noopener noreferrer"
-        >GitHub
-      </a>
-      and is hosted on
-      <a href="https://ai-poem-generator-sa.netlify.app/"> Netlify </a>
-    </footer>
+      <footer>
+        This project was coded by Nthabeleng and open sourced on
+        <a
+          href="https://github.com/Nthabiblossom/ai-poem-generator"
+          target="_blank"
+          rel="noopener noreferrer"
+          >GitHub
+        </a>
+        and is hosted on
+        <a href="https://ai-poem-generator-sa.netlify.app/"> Netlify </a>
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
